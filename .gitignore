@@ -1,0 +1,41 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+backend/.test-temp/
+
+# Node / Next.js
+node_modules/
+.next/
+npm-debug.log*
+
+# Local runtime data
+backend/data/
+qdrant_data/
+postgres_data/
+
+# Reference material — large, not part of the shipped product
+_reference/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local environments / logs
+.venv/
+venv/
+*.log
+coverage/
+htmlcov/
+
+# Local AI development context
+.claude/
+PROJECT_STATE.md

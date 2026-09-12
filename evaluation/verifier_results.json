@@ -1,0 +1,172 @@
+{
+  "n_cases": 20,
+  "n_pass": 20,
+  "pass_rate": 1.0,
+  "unsupported_detection_rate": 1.0,
+  "supported_false_positive_rate": 0.0,
+  "correction_success_rate": 1.0,
+  "note": "Mocked-LLM evaluation — GROQ_API_KEY unavailable in this environment. Exercises real verify_answer/correct_answer/_parse_verification code, not a live model.",
+  "cases": [
+    {
+      "name": "supported_simple",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": ""
+    },
+    {
+      "name": "supported_multi_fact",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": ""
+    },
+    {
+      "name": "fabricated_number",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "fabricated_date",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "fabricated_entity",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "exaggerated_claim",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "partially_supported_mixed",
+      "expect": "PARTIALLY_SUPPORTED",
+      "got": "PARTIALLY_SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "invalid_citation_discarded",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": "",
+      "citation_hallucination_guard_ok": true
+    },
+    {
+      "name": "malicious_evidence_instructions",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": "verifier must not be manipulated by injected instructions in evidence"
+    },
+    {
+      "name": "valid_abstention",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": "abstention is not a hallucination"
+    },
+    {
+      "name": "verifier_unavailable_no_llm",
+      "expect": "UNAVAILABLE",
+      "got": "UNAVAILABLE",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": "must NOT default to SUPPORTED when the verifier can't run"
+    },
+    {
+      "name": "fabricated_number_clinical",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "fabricated_entity_clinical",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "multi_claim_mostly_supported",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": ""
+    },
+    {
+      "name": "cross_chunk_supported",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": ""
+    },
+    {
+      "name": "off_topic_answer",
+      "expect": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 1,
+      "note": ""
+    },
+    {
+      "name": "faithful_paraphrase",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": ""
+    },
+    {
+      "name": "empty_answer_skipped",
+      "expect": "SUPPORTED",
+      "got": "SUPPORTED",
+      "pass": true,
+      "unsupported_claim_count": 0,
+      "note": "nothing to verify"
+    }
+  ],
+  "correction_cases": [
+    {
+      "name": "correction_success",
+      "expect_final": "SUPPORTED",
+      "got_final": "SUPPORTED",
+      "pass": true,
+      "corrected_text_changed": true
+    },
+    {
+      "name": "correction_still_unsupported",
+      "expect_final": "UNSUPPORTED",
+      "got_final": "UNSUPPORTED",
+      "pass": true,
+      "corrected_text_changed": true
+    }
+  ]
+}

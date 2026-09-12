@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "A1",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "What is the maximum value of a gift an employee can accept without declaring it?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "₹500"
+    ],
+    "answerable": true,
+    "facts": [
+      "gifts up to ₹500 permitted without declaration"
+    ]
+  },
+  {
+    "id": "A2",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "What email address should be used to report an ethics concern?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "ethics@mediassist.in"
+    ],
+    "answerable": true,
+    "facts": [
+      "ethics@mediassist.in"
+    ]
+  },
+  {
+    "id": "A3",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How long does the hospital have to investigate a sexual harassment complaint internally?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "15-day"
+    ],
+    "answerable": true,
+    "facts": [
+      "15-day internal investigation timeline"
+    ]
+  },
+  {
+    "id": "A4",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "How many quotations are required for vendor purchases above ₹50,000?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "three quotations"
+    ],
+    "answerable": true,
+    "facts": [
+      "at least three quotations above ₹50,000"
+    ]
+  },
+  {
+    "id": "A5",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "Where is my signed annual conduct declaration kept?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "personnel file",
+      "hr portal"
+    ],
+    "answerable": true,
+    "facts": [
+      "retained in personnel file on the HR Portal"
+    ]
+  },
+  {
+    "id": "A6",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What are the four stages of the disciplinary process, and what kind of misconduct can skip straight to termination?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "verbal warning",
+      "written warning",
+      "gross misconduct"
+    ],
+    "answerable": true,
+    "facts": [
+      "verbal warning",
+      "written warning",
+      "final written warning",
+      "termination",
+      "gross misconduct can bypass the stages"
+    ]
+  },
+  {
+    "id": "A7",
+    "domain": "a_general",
+    "category": "distractor",
+    "type": "simple",
+    "q": "What is the deadline for reporting a suspected data breach in the Code of Conduct?",
+    "docs": [
+      "code_of_conduct.pdf"
+    ],
+    "keywords": [
+      "2 hours"
+    ],
+    "answerable": true,
+    "facts": [
+      "report to IT Security within 2 hours"
+    ],
+    "note": "distractor: staff_handbook also has a 2-hour window for account compromise"
+  },
+  {
+    "id": "A8",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "How much is the Provident Fund employer contribution rate?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "12%"
+    ],
+    "answerable": true,
+    "facts": [
+      "12% employer contribution"
+    ]
+  },
+  {
+    "id": "A9",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How much health insurance cover does the company give my family?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "₹5,00,000",
+      "family floater"
+    ],
+    "answerable": true,
+    "facts": [
+      "₹5,00,000 family floater"
+    ]
+  },
+  {
+    "id": "A10",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "Who approves leave for ICU doctors?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "icu department head"
+    ],
+    "answerable": true,
+    "facts": [
+      "ICU department head (HOD)"
+    ]
+  },
+  {
+    "id": "A11",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "What number do I dial for a medical emergency involving a staff member?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "7777"
+    ],
+    "answerable": true,
+    "facts": [
+      "dial 7777"
+    ],
+    "note": "distractor: same number is Code Blue in staff_handbook"
+  },
+  {
+    "id": "A12",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What is the notice period for resignation, and does it differ between clinical and non-clinical staff?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "30 days",
+      "60 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "30 days non-clinical",
+      "60 days clinical"
+    ]
+  },
+  {
+    "id": "A13",
+    "domain": "a_general",
+    "category": "distractor",
+    "type": "simple",
+    "q": "How many days in advance can employees book a conference room?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "30 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "up to 30 days in advance"
+    ],
+    "note": "distractor: '30 days' also appears as the resignation notice period"
+  },
+  {
+    "id": "A14",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "How many days of Earned Leave can clinical staff carry forward?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "carry forward max 30 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "carry forward max 30 days"
+    ]
+  },
+  {
+    "id": "A15",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How much notice must I give before taking Casual Leave?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "2 days in advance"
+    ],
+    "answerable": true,
+    "facts": [
+      "apply at least 2 days in advance"
+    ]
+  },
+  {
+    "id": "A16",
+    "domain": "a_general",
+    "category": "comparison",
+    "type": "complex",
+    "q": "Compare Earned Leave entitlement between clinical and non-clinical staff.",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "15 days",
+      "18 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "clinical: 15 days/yr",
+      "non-clinical: 18 days/yr"
+    ]
+  },
+  {
+    "id": "A17",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "How much on-call pay does a resident doctor receive per night, and does the rate change on Sundays?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "₹800",
+      "₹1,600"
+    ],
+    "answerable": true,
+    "facts": [
+      "₹800/night, doubling to ₹1,600 on Sundays/holidays"
+    ]
+  },
+  {
+    "id": "A18",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "How many consecutive days of unexplained absence counts as voluntary abandonment of service?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "10 or more consecutive days"
+    ],
+    "answerable": true,
+    "facts": [
+      "10+ consecutive days"
+    ]
+  },
+  {
+    "id": "A19",
+    "domain": "a_general",
+    "category": "ambiguous",
+    "type": "ambiguous",
+    "q": "How much leave do I get?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "earned leave",
+      "sick leave",
+      "casual leave"
+    ],
+    "answerable": true,
+    "facts": [
+      "depends on leave type and clinical/non-clinical status"
+    ],
+    "note": "ambiguous: system should surface multiple leave types, not invent one number"
+  },
+  {
+    "id": "A20",
+    "domain": "a_general",
+    "category": "reformulation",
+    "type": "simple",
+    "q": "Is there a cap on how much paid time off rolls over to next year?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "carry forward max 30 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "carry forward max 30 days"
+    ],
+    "note": "wording diverges sharply from source phrasing"
+  },
+  {
+    "id": "A21",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "In what year was MediAssist founded, and in which city?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "2008",
+      "hyderabad"
+    ],
+    "answerable": true,
+    "facts": [
+      "founded 2008 in Hyderabad"
+    ]
+  },
+  {
+    "id": "A22",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "How many hospitals and how many staff does MediAssist have today?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "12 hospitals",
+      "8,500"
+    ],
+    "answerable": true,
+    "facts": [
+      "12 hospitals",
+      "~8,500 staff"
+    ]
+  },
+  {
+    "id": "A23",
+    "domain": "a_general",
+    "category": "distractor",
+    "type": "simple",
+    "q": "How long is the probation period for non-clinical staff?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "3 months for non-clinical"
+    ],
+    "answerable": true,
+    "facts": [
+      "3 months non-clinical"
+    ],
+    "note": "distractor: clinical staff probation is 6 months"
+  },
+  {
+    "id": "A24",
+    "domain": "a_general",
+    "category": "comparison",
+    "type": "complex",
+    "q": "Compare the probation period for clinical staff versus non-clinical staff.",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "6 months for clinical",
+      "3 months for non-clinical"
+    ],
+    "answerable": true,
+    "facts": [
+      "clinical: 6 months",
+      "non-clinical: 3 months"
+    ]
+  },
+  {
+    "id": "A25",
+    "domain": "a_general",
+    "category": "exact",
+    "type": "simple",
+    "q": "What is the replacement fee for a lost staff ID card?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "₹250"
+    ],
+    "answerable": true,
+    "facts": [
+      "₹250 replacement fee"
+    ]
+  },
+  {
+    "id": "A26",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "simple",
+    "q": "What does 'Code Pink' mean at MediAssist?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "infant or child abduction"
+    ],
+    "answerable": true,
+    "facts": [
+      "infant/child abduction"
+    ]
+  },
+  {
+    "id": "A27",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "List the mandatory induction training topics for new clinical employees and the deadline to complete them.",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "bls",
+      "infection control",
+      "fire safety",
+      "posh",
+      "30 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "BLS, infection control, fire safety, POSH within 30 days"
+    ]
+  },
+  {
+    "id": "A28",
+    "domain": "a_general",
+    "category": "multi_doc",
+    "type": "complex",
+    "q": "What is the minimum password length required for MediAssist systems, and how often must it be changed?",
+    "docs": [
+      "general_faqs.pdf",
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "12 characters",
+      "90 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "12 characters minimum",
+      "rotated every 90 days"
+    ],
+    "note": "same fact corroborated in two separate documents"
+  },
+  {
+    "id": "A29",
+    "domain": "a_general",
+    "category": "unanswerable",
+    "type": "unanswerable",
+    "q": "What is MediAssist's annual revenue?",
+    "docs": [],
+    "keywords": [],
+    "answerable": false,
+    "facts": []
+  },
+  {
+    "id": "A30",
+    "domain": "a_general",
+    "category": "unanswerable",
+    "type": "unanswerable",
+    "q": "Who is the current Chief Financial Officer of MediAssist by name?",
+    "docs": [],
+    "keywords": [],
+    "answerable": false,
+    "facts": [],
+    "note": "org chart names the CFO role, not a person"
+  },
+  {
+    "id": "A31",
+    "domain": "a_general",
+    "category": "unanswerable",
+    "type": "unanswerable",
+    "q": "What is the WiFi password for the guest network?",
+    "docs": [],
+    "keywords": [],
+    "answerable": false,
+    "facts": []
+  },
+  {
+    "id": "A32",
+    "domain": "a_general",
+    "category": "distractor",
+    "type": "simple",
+    "q": "What is the grace period for late arrival before it affects attendance?",
+    "docs": [
+      "leave_policy.pdf"
+    ],
+    "keywords": [
+      "10 minutes"
+    ],
+    "answerable": true,
+    "facts": [
+      "10-minute grace period"
+    ]
+  },
+  {
+    "id": "A33",
+    "domain": "a_general",
+    "category": "multi_part",
+    "type": "simple",
+    "q": "If my laptop is lost or stolen, who do I report it to?",
+    "docs": [
+      "general_faqs.pdf"
+    ],
+    "keywords": [
+      "it security",
+      "ithelp@mediassist.in"
+    ],
+    "answerable": true,
+    "facts": [
+      "IT Security (ithelp@mediassist.in) and supervisor"
+    ]
+  },
+  {
+    "id": "A34",
+    "domain": "a_general",
+    "category": "semantic",
+    "type": "complex",
+    "q": "What's the process if my workplace grievance isn't resolved by my manager?",
+    "docs": [
+      "staff_handbook.pdf"
+    ],
+    "keywords": [
+      "hr business partner",
+      "21 days"
+    ],
+    "answerable": true,
+    "facts": [
+      "escalate to HR Business Partner",
+      "resolution targeted within 21 days"
+    ]
+  },
+  {
+    "id": "B1",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What is the package rate for a laparoscopic cholecystectomy?",
+    "docs": [
+      "billing_codes.pdf"
+    ],
+    "keywords": [
+      "₹58,000"
+    ],
+    "answerable": true,
+    "facts": [
+      "₹58,000 package rate"
+    ]
+  },
+  {
+    "id": "B2",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What is the ICD-10 code for NSTEMI?",
+    "docs": [
+      "billing_codes.pdf",
+      "treatment_protocols.pdf"
+    ],
+    "keywords": [
+      "i21.4"
+    ],
+    "answerable": true,
+    "facts": [
+      "I21.4"
+    ]
+  },
+  {
+    "id": "B3",
+    "domain": "b_clinical",
+    "category": "multi_doc",
+    "type": "complex",
+    "q": "What is the pre-authorisation deadline for an emergency admission, and what package rate and ICD-10 code apply to an NSTEMI patient?",
+    "docs": [
+      "claim_submission_guide.md",
+      "billing_codes.pdf"
+    ],
+    "keywords": [
+      "6 hours",
+      "₹1,20,000",
+      "i21.4"
+    ],
+    "answerable": true,
+    "facts": [
+      "within 6 hours of admission",
+      "I21.4",
+      "₹1,20,000"
+    ]
+  },
+  {
+    "id": "B4",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How long do I have to submit a reimbursement claim after being discharged?",
+    "docs": [
+      "claim_submission_guide.md"
+    ],
+    "keywords": [
+      "30 days post-discharge"
+    ],
+    "answerable": true,
+    "facts": [
+      "typically 30 days post-discharge"
+    ]
+  },
+  {
+    "id": "B5",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What claim amount threshold triggers a mandatory dual-check?",
+    "docs": [
+      "claim_submission_guide.md"
+    ],
+    "keywords": [
+      "₹2,00,000"
+    ],
+    "answerable": true,
+    "facts": [
+      "above ₹2,00,000"
+    ]
+  },
+  {
+    "id": "B6",
+    "domain": "b_clinical",
+    "category": "comparison",
+    "type": "complex",
+    "q": "Compare the pre-authorisation approval style between Star Health and New India Assurance.",
+    "docs": [
+      "claim_submission_guide.md"
+    ],
+    "keywords": [
+      "auto-adjudication",
+      "psu insurer"
+    ],
+    "answerable": true,
+    "facts": [
+      "Star Health: fastest, auto-adjudication",
+      "New India: PSU insurer, slower on weekends"
+    ]
+  },
+  {
+    "id": "B7",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "How many years must claim files be retained?",
+    "docs": [
+      "claim_submission_guide.md"
+    ],
+    "keywords": [
+      "7 years"
+    ],
+    "answerable": true,
+    "facts": [
+      "minimum 7 years"
+    ]
+  },
+  {
+    "id": "B8",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What is the window to respond to an insurer's query, and what is the deadline to report suspected fraud?",
+    "docs": [
+      "claim_submission_guide.md"
+    ],
+    "keywords": [
+      "2 hours",
+      "24 hours"
+    ],
+    "answerable": true,
+    "facts": [
+      "respond within 2 hours",
+      "report fraud within 24 hours"
+    ]
+  },
+  {
+    "id": "B9",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What haemoglobin level is a critical value requiring the transfusion protocol?",
+    "docs": [
+      "diagnostic_reference.pdf"
+    ],
+    "keywords": [
+      "< 7 g/dl"
+    ],
+    "answerable": true,
+    "facts": [
+      "< 7 g/dL"
+    ]
+  },
+  {
+    "id": "B10",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How quickly must a lab call the ward about a dangerously abnormal result?",
+    "docs": [
+      "diagnostic_reference.pdf"
+    ],
+    "keywords": [
+      "15 minutes"
+    ],
+    "answerable": true,
+    "facts": [
+      "within 15 minutes"
+    ]
+  },
+  {
+    "id": "B11",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What troponin I level is considered clinically significant?",
+    "docs": [
+      "diagnostic_reference.pdf"
+    ],
+    "keywords": [
+      "> 0.4"
+    ],
+    "answerable": true,
+    "facts": [
+      "> 0.4 ng/mL"
+    ]
+  },
+  {
+    "id": "B12",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What ECG finding indicates a STEMI, and how long does the lab have to notify a doctor of a critical value?",
+    "docs": [
+      "diagnostic_reference.pdf"
+    ],
+    "keywords": [
+      "stemi",
+      "15 minutes"
+    ],
+    "answerable": true,
+    "facts": [
+      "ST elevation > 1mm in ≥2 contiguous leads",
+      "15-minute notification"
+    ]
+  },
+  {
+    "id": "B13",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "What lactate level suggests hypoperfusion or sepsis on an arterial blood gas?",
+    "docs": [
+      "diagnostic_reference.pdf"
+    ],
+    "keywords": [
+      "> 4"
+    ],
+    "answerable": true,
+    "facts": [
+      "> 4 mmol/L on ABG"
+    ],
+    "note": "distractor: a different lactate threshold (≥2) appears for the sepsis marker panel"
+  },
+  {
+    "id": "B14",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What formulary tier requires CMO approval before a drug can be prescribed?",
+    "docs": [
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "tier 4"
+    ],
+    "answerable": true,
+    "facts": [
+      "Tier 4"
+    ]
+  },
+  {
+    "id": "B15",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "What is the standard adult oral dose of amoxicillin?",
+    "docs": [
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "500 mg tds"
+    ],
+    "answerable": true,
+    "facts": [
+      "500 mg TDS"
+    ]
+  },
+  {
+    "id": "B16",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "Which drug name on the LASA list is easily confused with dopamine?",
+    "docs": [
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "dobutamine"
+    ],
+    "answerable": true,
+    "facts": [
+      "DOBUTamine"
+    ]
+  },
+  {
+    "id": "B17",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What tier is colistin, and why does it need special approval?",
+    "docs": [
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "tier 4",
+      "nephrotoxic"
+    ],
+    "answerable": true,
+    "facts": [
+      "Tier 4, CMO approval, nephrotoxic"
+    ]
+  },
+  {
+    "id": "B18",
+    "domain": "b_clinical",
+    "category": "multi_doc",
+    "type": "complex",
+    "q": "What is the first-line outpatient antibiotic for community-acquired pneumonia, and what formulary tier is that drug?",
+    "docs": [
+      "treatment_protocols.pdf",
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "tier"
+    ],
+    "answerable": true,
+    "facts": [
+      "Amoxicillin 500mg TDS",
+      "Tier 1"
+    ]
+  },
+  {
+    "id": "B19",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "How often must the SterilPro 3000 autoclave undergo a biological indicator test?",
+    "docs": [
+      "equipment_manual.pdf"
+    ],
+    "keywords": [
+      "weekly"
+    ],
+    "answerable": true,
+    "facts": [
+      "weekly BI test"
+    ],
+    "note": "distractor: Bowie-Dick test on the same device is daily"
+  },
+  {
+    "id": "B20",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "What should I do if the patient monitor shows fault code E-12?",
+    "docs": [
+      "equipment_manual.pdf"
+    ],
+    "keywords": [
+      "e-12",
+      "remove from service"
+    ],
+    "answerable": true,
+    "facts": [
+      "internal sensor failure, remove from service immediately"
+    ]
+  },
+  {
+    "id": "B21",
+    "domain": "b_clinical",
+    "category": "comparison",
+    "type": "complex",
+    "q": "Compare the infusion pump's occlusion pressure alarm threshold for venous lines versus arterial lines.",
+    "docs": [
+      "equipment_manual.pdf"
+    ],
+    "keywords": [
+      "200 mmhg",
+      "300 mmhg"
+    ],
+    "answerable": true,
+    "facts": [
+      "venous: 200 mmHg",
+      "arterial: 300 mmHg default"
+    ]
+  },
+  {
+    "id": "B22",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What temperature and hold time does the pre-vacuum 134 autoclave cycle use, and what loads is it suitable for?",
+    "docs": [
+      "equipment_manual.pdf"
+    ],
+    "keywords": [
+      "134",
+      "3.5 min",
+      "wrapped sets"
+    ],
+    "answerable": true,
+    "facts": [
+      "134°C, 3.5 min hold, wrapped sets/porous/hollow loads"
+    ]
+  },
+  {
+    "id": "B23",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "How often should a central-line dressing be changed in the ICU?",
+    "docs": [
+      "icu_nursing_procedures.pdf"
+    ],
+    "keywords": [
+      "every 72 hours"
+    ],
+    "answerable": true,
+    "facts": [
+      "every 72 hours"
+    ],
+    "note": "distractor: IV cannula change is 72-96 hours, a different SOP"
+  },
+  {
+    "id": "B24",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "How many attempts is a nurse allowed before escalating a failed IV cannula insertion?",
+    "docs": [
+      "icu_nursing_procedures.pdf"
+    ],
+    "keywords": [
+      "maximum 2 attempts"
+    ],
+    "answerable": true,
+    "facts": [
+      "max 2 attempts per nurse"
+    ]
+  },
+  {
+    "id": "B25",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What cannula gauge is recommended for a blood transfusion, and what gauge for rapid fluid resuscitation?",
+    "docs": [
+      "icu_nursing_procedures.pdf"
+    ],
+    "keywords": [
+      "≥ 18g",
+      "≥ 16g"
+    ],
+    "answerable": true,
+    "facts": [
+      "transfusion: ≥18G",
+      "rapid resuscitation: ≥16G"
+    ]
+  },
+  {
+    "id": "B26",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What Braden Scale score indicates increased pressure-injury risk?",
+    "docs": [
+      "icu_nursing_procedures.pdf"
+    ],
+    "keywords": [
+      "≤ 18"
+    ],
+    "answerable": true,
+    "facts": [
+      "score ≤ 18"
+    ]
+  },
+  {
+    "id": "B27",
+    "domain": "b_clinical",
+    "category": "multi_doc",
+    "type": "complex",
+    "q": "What PPE is required for an aerosol-generating procedure, and which ICU nursing task is explicitly an aerosol-generating procedure?",
+    "docs": [
+      "infection_control.pdf",
+      "icu_nursing_procedures.pdf"
+    ],
+    "keywords": [
+      "n95",
+      "open suctioning"
+    ],
+    "answerable": true,
+    "facts": [
+      "N95/PAPR + full gown + face shield",
+      "open suctioning is aerosol-generating"
+    ]
+  },
+  {
+    "id": "B28",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "How long should an alcohol-based hand rub be applied for?",
+    "docs": [
+      "infection_control.pdf"
+    ],
+    "keywords": [
+      "20-30 seconds"
+    ],
+    "answerable": true,
+    "facts": [
+      "20-30 seconds"
+    ],
+    "note": "distractor: soap-and-water handwash is 40-60 seconds"
+  },
+  {
+    "id": "B29",
+    "domain": "b_clinical",
+    "category": "semantic",
+    "type": "simple",
+    "q": "What counts as an outbreak under MediAssist's infection control protocol?",
+    "docs": [
+      "infection_control.pdf"
+    ],
+    "keywords": [
+      "two or more linked cases"
+    ],
+    "answerable": true,
+    "facts": [
+      "two or more linked cases within 72 hours"
+    ]
+  },
+  {
+    "id": "B30",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What are the four healthcare-associated infections under active surveillance, and who must be notified of a suspected case within 24 hours?",
+    "docs": [
+      "infection_control.pdf"
+    ],
+    "keywords": [
+      "cauti",
+      "clabsi",
+      "vap",
+      "ssi",
+      "infection control nurse"
+    ],
+    "answerable": true,
+    "facts": [
+      "CAUTI, CLABSI, VAP, SSI",
+      "infection control nurse"
+    ]
+  },
+  {
+    "id": "B31",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "What colour waste container is used for glassware and sharps?",
+    "docs": [
+      "infection_control.pdf"
+    ],
+    "keywords": [
+      "blue"
+    ],
+    "answerable": true,
+    "facts": [
+      "blue/white translucent"
+    ]
+  },
+  {
+    "id": "B32",
+    "domain": "b_clinical",
+    "category": "multi_doc",
+    "type": "complex",
+    "q": "Compare the first-line hypertension drug dose in the treatment protocol with its standard dose range in the drug formulary.",
+    "docs": [
+      "treatment_protocols.pdf",
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "amlodipine",
+      "5-10 mg"
+    ],
+    "answerable": true,
+    "facts": [
+      "protocol: Amlodipine 5mg OD",
+      "formulary: 5-10 mg OD range"
+    ]
+  },
+  {
+    "id": "B33",
+    "domain": "b_clinical",
+    "category": "exact",
+    "type": "simple",
+    "q": "At what TIMI risk score is an early invasive strategy recommended for NSTEMI?",
+    "docs": [
+      "treatment_protocols.pdf"
+    ],
+    "keywords": [
+      "≥ 3"
+    ],
+    "answerable": true,
+    "facts": [
+      "score ≥ 3"
+    ]
+  },
+  {
+    "id": "B34",
+    "domain": "b_clinical",
+    "category": "multi_part",
+    "type": "complex",
+    "q": "What does the CURB-65 score stand for, and at what score is ICU care considered for pneumonia?",
+    "docs": [
+      "treatment_protocols.pdf"
+    ],
+    "keywords": [
+      "curb-65",
+      "score ≥ 3"
+    ],
+    "answerable": true,
+    "facts": [
+      "Confusion, Urea, Respiratory rate, BP, Age≥65",
+      "≥3 consider ICU"
+    ]
+  },
+  {
+    "id": "B35",
+    "domain": "b_clinical",
+    "category": "unanswerable",
+    "type": "unanswerable",
+    "q": "What is the survival rate for stage 4 pancreatic cancer patients treated at MediAssist?",
+    "docs": [],
+    "keywords": [],
+    "answerable": false,
+    "facts": []
+  },
+  {
+    "id": "B36",
+    "domain": "b_clinical",
+    "category": "unanswerable",
+    "type": "unanswerable",
+    "q": "Which pharmaceutical company supplies MediAssist's insulin?",
+    "docs": [],
+    "keywords": [],
+    "answerable": false,
+    "facts": []
+  },
+  {
+    "id": "B37",
+    "domain": "b_clinical",
+    "category": "ambiguous",
+    "type": "ambiguous",
+    "q": "What dose of paracetamol should I give?",
+    "docs": [
+      "treatment_protocols.pdf",
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "paracetamol"
+    ],
+    "answerable": true,
+    "facts": [
+      "depends on adult/paediatric and weight band"
+    ],
+    "note": "ambiguous: multiple dosing tables exist; system should not invent a single number"
+  },
+  {
+    "id": "B38",
+    "domain": "b_clinical",
+    "category": "distractor",
+    "type": "simple",
+    "q": "What is the standard adult dose of pantoprazole?",
+    "docs": [
+      "drug_formulary.pdf"
+    ],
+    "keywords": [
+      "40 mg od"
+    ],
+    "answerable": true,
+    "facts": [
+      "40 mg OD"
+    ]
+  }
+]

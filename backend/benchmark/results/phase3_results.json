@@ -1,0 +1,685 @@
+{
+  "benchmark_id": "eb77576d-e444-4c61-bff0-0894a82bc708",
+  "questions": 20,
+  "corpus_size": 9,
+  "summary": {
+    "dense": {
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0,
+      "avg_latency_ms": 43.4
+    },
+    "sparse": {
+      "recall@5": 0.95,
+      "recall@10": 0.95,
+      "mrr": 0.8225,
+      "ndcg@10": 0.854,
+      "avg_latency_ms": 12.6
+    },
+    "hybrid": {
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.975,
+      "ndcg@10": 0.9815,
+      "avg_latency_ms": 26.3
+    },
+    "hybrid_rerank": {
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0,
+      "avg_latency_ms": 169.9
+    }
+  },
+  "per_query": {
+    "dense": [
+      {
+        "question": "How many vacation days do employees get each year?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the requirement for manager sign-off on holidays?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Can employees save unused vacation for next year?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many sick days are workers allowed?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When does a doctor's note become necessary?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How long is maternity/paternity leave?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What tenure is needed to work from home?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Who must approve working remotely?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Does the company supply equipment for remote workers?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the cybersecurity rules for remote employees?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "VPN policy for remote workers",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "medical certificate requirement",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "promotion committee review",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the performance review dates and the ratings used?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When are performance reviews and what is needed for promotion?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many days of carry-over leave are allowed?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the secondary caregiver parental leave entitlement?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What score scale is used for performance evaluations?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What happens to data security incidents when working remotely?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many consecutive Exceeds ratings are needed for promotion?",
+        "mode": "dense",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    ],
+    "sparse": [
+      {
+        "question": "How many vacation days do employees get each year?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the requirement for manager sign-off on holidays?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.2,
+        "ndcg@10": 0.38685280723454163
+      },
+      {
+        "question": "Can employees save unused vacation for next year?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many sick days are workers allowed?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When does a doctor's note become necessary?",
+        "mode": "sparse",
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0
+      },
+      {
+        "question": "How long is maternity/paternity leave?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "ndcg@10": 0.6309297535714575
+      },
+      {
+        "question": "What tenure is needed to work from home?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Who must approve working remotely?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Does the company supply equipment for remote workers?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the cybersecurity rules for remote employees?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.25,
+        "ndcg@10": 0.43067655807339306
+      },
+      {
+        "question": "VPN policy for remote workers",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "medical certificate requirement",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "promotion committee review",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the performance review dates and the ratings used?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When are performance reviews and what is needed for promotion?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "ndcg@10": 0.6309297535714575
+      },
+      {
+        "question": "How many days of carry-over leave are allowed?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the secondary caregiver parental leave entitlement?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What score scale is used for performance evaluations?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What happens to data security incidents when working remotely?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many consecutive Exceeds ratings are needed for promotion?",
+        "mode": "sparse",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    ],
+    "hybrid": [
+      {
+        "question": "How many vacation days do employees get each year?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the requirement for manager sign-off on holidays?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Can employees save unused vacation for next year?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many sick days are workers allowed?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When does a doctor's note become necessary?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How long is maternity/paternity leave?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What tenure is needed to work from home?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Who must approve working remotely?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Does the company supply equipment for remote workers?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the cybersecurity rules for remote employees?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "ndcg@10": 0.6309297535714575
+      },
+      {
+        "question": "VPN policy for remote workers",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "medical certificate requirement",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "promotion committee review",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the performance review dates and the ratings used?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When are performance reviews and what is needed for promotion?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many days of carry-over leave are allowed?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the secondary caregiver parental leave entitlement?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What score scale is used for performance evaluations?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What happens to data security incidents when working remotely?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many consecutive Exceeds ratings are needed for promotion?",
+        "mode": "hybrid",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    ],
+    "hybrid_rerank": [
+      {
+        "question": "How many vacation days do employees get each year?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the requirement for manager sign-off on holidays?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Can employees save unused vacation for next year?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many sick days are workers allowed?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When does a doctor's note become necessary?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How long is maternity/paternity leave?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What tenure is needed to work from home?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Who must approve working remotely?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "Does the company supply equipment for remote workers?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the cybersecurity rules for remote employees?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "VPN policy for remote workers",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "medical certificate requirement",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "promotion committee review",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What are the performance review dates and the ratings used?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "When are performance reviews and what is needed for promotion?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many days of carry-over leave are allowed?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What is the secondary caregiver parental leave entitlement?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What score scale is used for performance evaluations?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "What happens to data security incidents when working remotely?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      },
+      {
+        "question": "How many consecutive Exceeds ratings are needed for promotion?",
+        "mode": "hybrid_rerank",
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    ]
+  }
+}

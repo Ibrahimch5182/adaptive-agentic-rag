@@ -1,0 +1,2513 @@
+{
+  "n_answerable": 67,
+  "n_evaluated": 67,
+  "skipped_no_ground_truth": [],
+  "summary": {
+    "dense": {
+      "overall": {
+        "recall@5": 0.4155,
+        "recall@10": 0.4575,
+        "mrr": 0.9312,
+        "ndcg@10": 0.5465,
+        "avg_latency_ms": 32.7
+      },
+      "a_general": {
+        "recall@5": 0.4392,
+        "recall@10": 0.4618,
+        "mrr": 0.9562,
+        "ndcg@10": 0.5597
+      },
+      "b_clinical": {
+        "recall@5": 0.395,
+        "recall@10": 0.4538,
+        "mrr": 0.9097,
+        "ndcg@10": 0.5351
+      }
+    },
+    "sparse": {
+      "overall": {
+        "recall@5": 0.4025,
+        "recall@10": 0.4257,
+        "mrr": 0.9122,
+        "ndcg@10": 0.5202,
+        "avg_latency_ms": 20.3
+      },
+      "a_general": {
+        "recall@5": 0.443,
+        "recall@10": 0.4484,
+        "mrr": 0.9677,
+        "ndcg@10": 0.5638
+      },
+      "b_clinical": {
+        "recall@5": 0.3677,
+        "recall@10": 0.4062,
+        "mrr": 0.8644,
+        "ndcg@10": 0.4826
+      }
+    },
+    "hybrid": {
+      "overall": {
+        "recall@5": 0.418,
+        "recall@10": 0.4413,
+        "mrr": 0.9493,
+        "ndcg@10": 0.5444,
+        "avg_latency_ms": 33.2
+      },
+      "a_general": {
+        "recall@5": 0.4511,
+        "recall@10": 0.4511,
+        "mrr": 0.97,
+        "ndcg@10": 0.5654
+      },
+      "b_clinical": {
+        "recall@5": 0.3896,
+        "recall@10": 0.4328,
+        "mrr": 0.9315,
+        "ndcg@10": 0.5263
+      }
+    },
+    "hybrid_rerank": {
+      "overall": {
+        "recall@5": 0.4213,
+        "recall@10": 0.4578,
+        "mrr": 0.9623,
+        "ndcg@10": 0.5586,
+        "avg_latency_ms": 1288.0
+      },
+      "a_general": {
+        "recall@5": 0.4478,
+        "recall@10": 0.4726,
+        "mrr": 0.9724,
+        "ndcg@10": 0.5756
+      },
+      "b_clinical": {
+        "recall@5": 0.3985,
+        "recall@10": 0.4451,
+        "mrr": 0.9537,
+        "ndcg@10": 0.5439
+      }
+    }
+  },
+  "per_query": {
+    "dense": [
+      {
+        "id": "A1",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A2",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.38685280723454163
+      },
+      {
+        "id": "A3",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A4",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A5",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A6",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A7",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A8",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A9",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A10",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A11",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A12",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "A13",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "A14",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A15",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A16",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A17",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A18",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A19",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.2,
+        "recall@10": 0.4,
+        "mrr": 1.0,
+        "ndcg@10": 0.5009732673492617
+      },
+      {
+        "id": "A20",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.14285714285714285,
+        "ndcg@10": 0.20438239758848611
+      },
+      {
+        "id": "A21",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.45390362024822023
+      },
+      {
+        "id": "A22",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A23",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A24",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A25",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A26",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A27",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "A28",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A32",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A33",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A34",
+        "domain": "a_general",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B1",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.44149241373678083
+      },
+      {
+        "id": "B2",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B3",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.375,
+        "mrr": 0.5,
+        "ndcg@10": 0.3416424081865622
+      },
+      {
+        "id": "B4",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B5",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B6",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B7",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B8",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.48553456068968903
+      },
+      {
+        "id": "B9",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B10",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B11",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B12",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5855700749881525
+      },
+      {
+        "id": "B13",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5078961547485289
+      },
+      {
+        "id": "B14",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B15",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B16",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B17",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.4333144761517995
+      },
+      {
+        "id": "B18",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.18181818181818182,
+        "recall@10": 0.36363636363636365,
+        "mrr": 1.0,
+        "ndcg@10": 0.8357804136936718
+      },
+      {
+        "id": "B19",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.2,
+        "recall@10": 0.3,
+        "mrr": 0.5,
+        "ndcg@10": 0.32730659600126993
+      },
+      {
+        "id": "B20",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.4166666666666667,
+        "mrr": 1.0,
+        "ndcg@10": 0.6203974344166847
+      },
+      {
+        "id": "B21",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B22",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B23",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.25,
+        "ndcg@10": 0.2640681225725909
+      },
+      {
+        "id": "B24",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B25",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B26",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B27",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.3900741276002217
+      },
+      {
+        "id": "B28",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B29",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.38685280723454163
+      },
+      {
+        "id": "B30",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.21428571428571427,
+        "recall@10": 0.21428571428571427,
+        "mrr": 1.0,
+        "ndcg@10": 0.4690000933206748
+      },
+      {
+        "id": "B31",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5032251913410369
+      },
+      {
+        "id": "B32",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5616927747727312
+      },
+      {
+        "id": "B33",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4034698846650846
+      },
+      {
+        "id": "B34",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B37",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.375,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6187976698388302
+      },
+      {
+        "id": "B38",
+        "domain": "b_clinical",
+        "mode": "dense",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      }
+    ],
+    "sparse": [
+      {
+        "id": "A1",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A2",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A3",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A4",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A5",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A6",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5889837127672155
+      },
+      {
+        "id": "A7",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A8",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A9",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A10",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A11",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A12",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "A13",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "A14",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A15",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A16",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A17",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A18",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A19",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.4,
+        "recall@10": 0.4,
+        "mrr": 1.0,
+        "ndcg@10": 0.5637884576902256
+      },
+      {
+        "id": "A20",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0
+      },
+      {
+        "id": "A21",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.644824486427155
+      },
+      {
+        "id": "A22",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A23",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A24",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A25",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A26",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A27",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "A28",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A32",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A33",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A34",
+        "domain": "a_general",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B1",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B2",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 0.3333333333333333,
+        "ndcg@10": 0.19519002499605084
+      },
+      {
+        "id": "B3",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.125,
+        "recall@10": 0.25,
+        "mrr": 0.25,
+        "ndcg@10": 0.1990365012701236
+      },
+      {
+        "id": "B4",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5294362295028773
+      },
+      {
+        "id": "B5",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B6",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B7",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B8",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg@10": 0.32124463208930537
+      },
+      {
+        "id": "B9",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B10",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B11",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B12",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.35914753008966527
+      },
+      {
+        "id": "B13",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B14",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5855700749881525
+      },
+      {
+        "id": "B15",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B16",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B17",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6238470455881189
+      },
+      {
+        "id": "B18",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.09090909090909091,
+        "recall@10": 0.22727272727272727,
+        "mrr": 1.0,
+        "ndcg@10": 0.523153411299647
+      },
+      {
+        "id": "B19",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.2,
+        "recall@10": 0.2,
+        "mrr": 1.0,
+        "ndcg@10": 0.3589542101716347
+      },
+      {
+        "id": "B20",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.5174612499126158
+      },
+      {
+        "id": "B21",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B22",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B23",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B24",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B25",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B26",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B27",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 0.5,
+        "ndcg@10": 0.1909208661789347
+      },
+      {
+        "id": "B28",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B29",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.2,
+        "ndcg@10": 0.23719771276929622
+      },
+      {
+        "id": "B30",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.07142857142857142,
+        "recall@10": 0.07142857142857142,
+        "mrr": 1.0,
+        "ndcg@10": 0.22009176629808017
+      },
+      {
+        "id": "B31",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 0.5,
+        "ndcg@10": 0.24630238874073
+      },
+      {
+        "id": "B32",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg@10": 0.2467616398388741
+      },
+      {
+        "id": "B33",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.419665006636777
+      },
+      {
+        "id": "B34",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5205067333228022
+      },
+      {
+        "id": "B37",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.25,
+        "recall@10": 0.375,
+        "mrr": 1.0,
+        "ndcg@10": 0.4968460141484392
+      },
+      {
+        "id": "B38",
+        "domain": "b_clinical",
+        "mode": "sparse",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "A1",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A2",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A3",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A4",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A5",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A6",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A7",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A8",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A9",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A10",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A11",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A12",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "A13",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "A14",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A15",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A16",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A17",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A18",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A19",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.4,
+        "recall@10": 0.4,
+        "mrr": 1.0,
+        "ndcg@10": 0.5637884576902256
+      },
+      {
+        "id": "A20",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.07142857142857142,
+        "ndcg@10": 0.0
+      },
+      {
+        "id": "A21",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6238470455881189
+      },
+      {
+        "id": "A22",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A23",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A24",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A25",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A26",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A27",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "A28",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A32",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A33",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A34",
+        "domain": "a_general",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B1",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B2",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.3853585682515056
+      },
+      {
+        "id": "B3",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.125,
+        "recall@10": 0.375,
+        "mrr": 0.2,
+        "ndcg@10": 0.2677461418499763
+      },
+      {
+        "id": "B4",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5135312443624667
+      },
+      {
+        "id": "B5",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B6",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B7",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B8",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.41039156802332444
+      },
+      {
+        "id": "B9",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B10",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B11",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B12",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5855700749881525
+      },
+      {
+        "id": "B13",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B14",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B15",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B16",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B17",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5842273861585909
+      },
+      {
+        "id": "B18",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.18181818181818182,
+        "recall@10": 0.3181818181818182,
+        "mrr": 1.0,
+        "ndcg@10": 0.7381919257729245
+      },
+      {
+        "id": "B19",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.2,
+        "recall@10": 0.3,
+        "mrr": 1.0,
+        "ndcg@10": 0.3963918729015093
+      },
+      {
+        "id": "B20",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.4166666666666667,
+        "mrr": 1.0,
+        "ndcg@10": 0.6207622843987102
+      },
+      {
+        "id": "B21",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B22",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B23",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B24",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B25",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B26",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B27",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "B28",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B29",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "ndcg@10": 0.3065735963827292
+      },
+      {
+        "id": "B30",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.14285714285714285,
+        "recall@10": 0.21428571428571427,
+        "mrr": 1.0,
+        "ndcg@10": 0.388244052766991
+      },
+      {
+        "id": "B31",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 0.5,
+        "ndcg@10": 0.24630238874073
+      },
+      {
+        "id": "B32",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5413753343496285
+      },
+      {
+        "id": "B33",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.419665006636777
+      },
+      {
+        "id": "B34",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B37",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.375,
+        "recall@10": 0.375,
+        "mrr": 1.0,
+        "ndcg@10": 0.5390031312763821
+      },
+      {
+        "id": "B38",
+        "domain": "b_clinical",
+        "mode": "hybrid",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      }
+    ],
+    "hybrid_rerank": [
+      {
+        "id": "A1",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A2",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A3",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A4",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A5",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A6",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6238470455881189
+      },
+      {
+        "id": "A7",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A8",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A9",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A10",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A11",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A12",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "A13",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5855700749881525
+      },
+      {
+        "id": "A14",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A15",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A16",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A17",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A18",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A19",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3,
+        "recall@10": 0.4,
+        "mrr": 1.0,
+        "ndcg@10": 0.5473983622993501
+      },
+      {
+        "id": "A20",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.14285714285714285,
+        "ndcg@10": 0.20438239758848611
+      },
+      {
+        "id": "A21",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5943907508440193
+      },
+      {
+        "id": "A22",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A23",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A24",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A25",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A26",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A27",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "A28",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.4935232796777482
+      },
+      {
+        "id": "A32",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A33",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "A34",
+        "domain": "a_general",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B1",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5294362295028773
+      },
+      {
+        "id": "B2",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5855700749881525
+      },
+      {
+        "id": "B3",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 0.5,
+        "ndcg@10": 0.2574406717600568
+      },
+      {
+        "id": "B4",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5294362295028773
+      },
+      {
+        "id": "B5",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B6",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B7",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B8",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg@10": 0.24239360997286483
+      },
+      {
+        "id": "B9",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B10",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B11",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B12",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5585075862632192
+      },
+      {
+        "id": "B13",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "mrr": 1.0,
+        "ndcg@10": 0.3903800499921017
+      },
+      {
+        "id": "B14",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B15",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5413996682199069
+      },
+      {
+        "id": "B16",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B17",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.644824486427155
+      },
+      {
+        "id": "B18",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.18181818181818182,
+        "recall@10": 0.3181818181818182,
+        "mrr": 1.0,
+        "ndcg@10": 0.7600791051976191
+      },
+      {
+        "id": "B19",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3,
+        "recall@10": 0.3,
+        "mrr": 1.0,
+        "ndcg@10": 0.41528076708874123
+      },
+      {
+        "id": "B20",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.689828656353462
+      },
+      {
+        "id": "B21",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B22",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6366824387328317
+      },
+      {
+        "id": "B23",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B24",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B25",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B26",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B27",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "mrr": 1.0,
+        "ndcg@10": 0.3026024134988135
+      },
+      {
+        "id": "B28",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      },
+      {
+        "id": "B29",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "ndcg@10": 0.38685280723454163
+      },
+      {
+        "id": "B30",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.07142857142857142,
+        "recall@10": 0.07142857142857142,
+        "mrr": 1.0,
+        "ndcg@10": 0.22009176629808017
+      },
+      {
+        "id": "B31",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5294362295028773
+      },
+      {
+        "id": "B32",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5449960234716783
+      },
+      {
+        "id": "B33",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg@10": 0.41039156802332444
+      },
+      {
+        "id": "B34",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.5413996682199069
+      },
+      {
+        "id": "B37",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.375,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6187976698388302
+      },
+      {
+        "id": "B38",
+        "domain": "b_clinical",
+        "mode": "hybrid_rerank",
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "ndcg@10": 0.6131471927654584
+      }
+    ]
+  }
+}
