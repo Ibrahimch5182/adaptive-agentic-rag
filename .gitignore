@@ -39,3 +39,7 @@ htmlcov/
 # Local AI development context
 .claude/
 PROJECT_STATE.md
+
+# Vercel
+.vercel/
+frontend/.vercel/
